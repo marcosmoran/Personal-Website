@@ -29,6 +29,19 @@ Version: 1.0
 =======================================*/
 
 /*added*/
+.video-header h1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  z-index: 2;
+  color:rgb(173, 173, 173);
+}
 .modal {
   
   top: 10%;
@@ -42,7 +55,7 @@ Version: 1.0
 .modal-body {
   left: 15%;
   font-weight: 500;
-  padding-top: 40px ;
+  padding-top: 40px;
 }
 .modal-body h5 {
   font-size: 1em;
@@ -465,7 +478,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .portfolio-bg-equinox{background-image: url(assets/img/equinox.jpg);background-color :black;}
 .portfolio-bg-seat{background-image: url(assets/img/seat-alive.jpg);}
 .portfolio-bg-tc{background-image: url(assets/img/tc.png);}
-.portfolio-bg-advance{background-image: url(assets/img/portfolio-5.jpg);}
+.portfolio-bg-advance{background-image: url(assets/img/kinect.png);}
 .portfolio-bg-bmw{background-image: url(assets/img/ar-car.jpg);}
 .portfolio-bg-sonar{background-image: url(assets/img/sonar.jpg);}
 .portfolio-bg-lafemme{background-image: url(assets/img/la-femme.jpg);}
