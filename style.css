@@ -29,21 +29,12 @@ Version: 1.0
 =======================================*/
 
 /*added*/
-.video-header h1{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 100px;
-  z-index: 2;
-  color:rgb(173, 173, 173);
+
+canvas:hover{
+  cursor:grab;
 }
 .modal {
-  
+
   top: 10%;
   right: 0%;
   bottom: 0;

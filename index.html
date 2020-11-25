@@ -7,7 +7,7 @@
         <!-- website title -->
         <title>Marcos Moran</title>
         <!-- bootstrap css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+       <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <!-- fontawosome icon css -->
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
         <!-- owl carousel css -->
@@ -16,6 +16,7 @@
         <link href="assets/css/magnific-popup.css" rel="stylesheet">
         <!-- animate css -->
         <link href="assets/css/animate.css" rel="stylesheet">
+     
         <!-- main style css -->
         <link href="style.css" rel="stylesheet">
         <!-- responsive css -->
@@ -44,30 +45,10 @@
         </div>
 		   
  
-        <!-- ============  Header area =========== -->
-      <div class="wecome-header" id="homeee">
-        <div class="header-area">
-         	<div class="container">
-         		<div class="row">
-              <div class="col-sm-2">
-              
-              </div>
-         		</div>
-         	</div>
-         </div>
-       </div>
-        <!-- ============  Slider area =========== -->
-       <div class = "video-header section-padding">
-         <h1>Marcos Moran</h1>
-        <div class="overlay"></div>
     
-        <div class="container h-100">
-          <div class="d-flex text-center h-100">
-            <div class="my-auto w-100 text-white">
-          
-            </div>
-          </div>
-        </div>
+        <!-- ============  Slider area =========== -->
+       <div id="video-container" class = "video-header">
+        
         </div>
          <!-- ============  About area =========== -->
      	  <div class="section-padding about-me padding-bottom-0 wow fadeInDown" id="about">
@@ -84,7 +65,7 @@
                     I enjoy constantly learning and developing new skills to intergrate into future projects,
                     and have a keen interest in creating music videos and performing live visuals.
                   </p>
-                  <div style="position: relative; top:15px;">
+                  <div style="position: relative; top:20px;">
                   <h4>Technologies I like to use</h4>
                     <div style="position: relative; bottom:30px;">
                       <div style="display:inline-block";>
@@ -96,7 +77,7 @@
                             </ul>
                           </div>
 
-                          <div style="display:inline-block;">
+                          <div style="display:inline-block">
                              <ul>
                                 <li><b>TouchDesigner</b></li> 
                                 <li><b>Resolume Arena</b></li> 
@@ -107,7 +88,7 @@
                             </div>
                           </div>
 
-                            <div style="position: relative; bottom:70px;">
+                            <div style="position: relative; bottom:40px;">
                               <div class="about-btn" style="display:inline-block;">
                                 <a href="assets/Marcos-Moran-Developer-CV.pdf" download class="boxed-btn">Get Resume</a>
                             </div>
@@ -514,10 +495,9 @@
                     </div>
                   
                     <div class="modal-body" >
-                   
                       <p>
-                       An international artistic showcase based in Cape Town, I was contacted by the organisers who had found my work from my YouTube channel, Cosmic Drop, and asked
-                       me to showcase several of my videos at the event. The event was based around occult and vintage media which was a perfect fit for my visual style at the time.
+                        An international artistic showcase based in Cape Town, I was contacted by the organisers who had found my work from my YouTube channel, Cosmic Drop, and asked
+                        me to showcase several of my videos at the event. The event was based around occult and vintage media which was a perfect fit for my visual style at the time.
                       </p>
                     </div>
                     <div class="modal-footer">
@@ -543,7 +523,6 @@
                         and won runner-up for best overall project. The project was made using Java's creative coding library Processing and used 
                         Fast Fourier Transforms to analyze the audio signal.
                         I am currently remaking this using Three.js.
-
                       </p>
                     </div>
                     <div class="modal-footer">
@@ -553,8 +532,8 @@
                 </div>
               </div>
               
-               <!--Cosmic Drop-->
-           <div class="modal centered fade" id="cdModal" role="dialog">
+              <!--Cosmic Drop-->
+          <div class="modal centered fade" id="cdModal" role="dialog">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
@@ -598,8 +577,8 @@
                     </div>
                   </div>
                 </div>
-           <!--CompShow-->
-           <div class="modal centered fade" id="compshowModal" role="dialog">
+          <!--CompShow-->
+          <div class="modal centered fade" id="compshowModal" role="dialog">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
@@ -612,8 +591,7 @@
                     CompShow is an annual event held at the University of Hertfordshire, where a selection of Computer Science students are 
                     chosen to showcase their final year projects to members of the industry. I was presented with the Gordon Brand Prize 
                     after achieving the highest overall grade in the module User Experience, and won runner-up for best overall final year
-                     project, for my audio reactive game “SoundScape”.
-
+                    project, for my audio reactive game “SoundScape”.
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -622,11 +600,7 @@
               </div>
             </div>
           </div>
-       
-             
-              
-           
-          </div>
+        </div>
   
          <!-- ============ footer area ========= -->
          <div class="footer-area">
@@ -639,7 +613,11 @@
          </div>
          <!-- ============ Scroll to top area ========= -->
          <a href="" class="scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        <!-- jQuery liberary file -->
+        <!-- jQuery library file -->
+        <script src="assets/js/three.js"></script>
+        <script src="assets/js/OrbitControls.js"></script>
+        <script src="assets/js/index.js"></script>
+        <script src="assets/js/bg.js"></script>
         <script src="assets/js/jquery.min.js"></script>
         <!-- Bootstrap JS -->
         <script src="assets/js/bootstrap.min.js"></script>
@@ -649,8 +627,8 @@
         <script src="assets/js/isotope.pkgd.min.js"></script>
         <!-- Magnific Popup JS -->
         <script src="assets/js/magnific-popup.min.js"></script>
-	    <!-- YTPlayer JS -->
-	    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+	      <!-- YTPlayer JS -->
+	      <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
         <!-- Wow animation JS -->
         <script src="assets/js/wow-1.3.0.min.js"></script>
         <!-- one page scroll JS -->
