@@ -465,6 +465,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .portfolio-bg-cd{background-image: url(assets/img/cd-logo.png);}
 .portfolio-bg-ss{background-image: url(assets/img/soundscape.png); background-color :black;}
 .portfolio-bg-as{background-image: url(assets/img/a&s.png); background-color :rgb(233,35,42)}
+.portfolio-bg-motion{background-image: url(assets/img/motion.png);}
 .portfolio-bg-genesis{background-image: url(assets/img/genesis.jpg);}
 .portfolio-bg-equinox{background-image: url(assets/img/equinox.jpg);background-color :black;}
 .portfolio-bg-seat{background-image: url(assets/img/seat-alive.jpg);}
